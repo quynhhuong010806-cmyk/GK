@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MiniShop – Quản trị</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>⚙️ Dashboard Admin</h1>
+  <nav>
+    <span id="adminName"></span>
+    <a href="index.html">Cửa hàng</a>
+    <button type="button" id="btnLogout" class="btn">Đăng xuất</button>
+  </nav>
+</header>
+
+<main class="admin-main">
+  <section>
+    <h2>Thống kê đơn hàng</h2>
+    <div id="stats" class="stats"></div>
+  </section>
+
+  <section>
+    <h2>Sản phẩm được bán</h2>
+    <div id="topProducts"></div>
+  </section>
+
+  <section>
+    <h2>Quản lý đơn hàng</h2>
+
+    <div class="toolbar">
+      <input type="search" id="searchOrder" placeholder="Tìm theo mã đơn / tên khách">
+      <select id="filterStatus"><option value="">Tất cả trạng thái</option></select>
+    </div>
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead>
+          <tr><th>Mã đơn</th><th>Ngày</th><th>Khách hàng</th><th>Nhân viên</th><th>Tổng tiền</th><th>Trạng thái</th><th></th></tr>
+        </thead>
+        <tbody id="orderBody"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  © Sinh viên: Võ Ngọc Quỳnh Hương – Mã sinh viên: K244161789
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
