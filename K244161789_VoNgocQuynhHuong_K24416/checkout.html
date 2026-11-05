@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MiniShop – Thanh toán</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1><a href="index.html">🛒 MiniShop</a></h1>
+  <nav>
+    <a href="index.html">Sản phẩm</a>
+    <a href="checkout.html">Thanh toán</a>
+    <a href="login.html">Quản trị</a>
+    <button type="button" id="cartToggle" class="btn cart-btn">Giỏ hàng (<span id="cartCount">0</span>)</button>
+  </nav>
+  <section id="miniCart" class="mini-cart" hidden>
+    <h2>Giỏ hàng</h2>
+    <div id="miniCartBody"></div>
+    <p class="mini-total">Tổng: <b id="miniCartTotal">$0.00</b></p>
+  </section>
+</header>
+
+<main class="page-narrow">
+  <section>
+    <h2>Đơn hàng của bạn</h2>
+    <div id="orderSummary"></div>
+  </section>
+
+  <section class="form-box">
+
+    <h2>Thông tin giao hàng</h2>
+    <form id="checkoutForm" novalidate>
+      <div class="field">
+        <label for="fullName">Họ và tên</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Nguyễn Văn A">
+        <span class="error"></span>
+      </div>
+      <div class="field">
+        <label for="phone">Số điện thoại</label>
+        <input type="text" id="phone" name="phone" placeholder="0912345678">
+        <span class="error"></span>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="ten@gmail.com">
+        <span class="error"></span>
+      </div>
+      <div class="field">
+        <label for="address">Địa chỉ</label>
+        <textarea id="address" name="address" rows="3" placeholder="Số nhà, đường, quận, thành phố"></textarea>
+        <span class="error"></span>
+      </div>
+      <button type="submit" class="btn primary">Thanh toán</button>
+    </form>
+    <div id="result" class="success-box" hidden></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  © Sinh viên: Võ Ngọc Quỳnh Hương – Mã sinh viên: K244161789
+</footer>
+
+
+<script src="js/data.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/checkout.js"></script>
+</body>
+</html>

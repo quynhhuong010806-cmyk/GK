@@ -1,0 +1,4 @@
+[
+  { "id": "NV01", "name": "Nguyễn Văn An", "username": "admin", "password": "admin123", "role": "admin", "phone": "0901234567", "email": "an.admin@minishop.vn" },
+  { "id": "NV02", "name": "Trần Thị Bình", "username": "staff", "password": "staff123", "role": "staff", "phone": "0912345678", "email": "binh.staff@minishop.vn" }
+]

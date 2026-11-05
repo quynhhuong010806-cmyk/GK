@@ -1,0 +1,5 @@
+[
+  { "id": "KH01", "name": "Lê Minh Khoa", "username": "khoa", "password": "khoa123", "email": "khoa@gmail.com", "phone": "0987654321", "address": "12 Nguyễn Huệ, Q.1, TP.HCM" },
+  { "id": "KH02", "name": "Phạm Thu Hà", "username": "ha", "password": "ha123", "email": "ha@gmail.com", "phone": "0976543210", "address": "45 Lê Lợi, Q.3, TP.HCM" },
+  { "id": "KH03", "name": "Hoàng Gia Bảo", "username": "bao", "password": "bao123", "email": "bao@gmail.com", "phone": "0965432109", "address": "78 Trần Hưng Đạo, Q.5, TP.HCM" }
+]

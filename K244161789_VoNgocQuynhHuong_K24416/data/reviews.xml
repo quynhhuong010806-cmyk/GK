@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reviews>
+  <review id="RV01"><product_id>1</product_id><customer_id>KH01</customer_id><rating>5</rating><comment>Balo rất bền, đựng vừa laptop.</comment><date>2026-10-03</date></review>
+  <review id="RV02"><product_id>1</product_id><customer_id>KH02</customer_id><rating>4</rating><comment>Chất lượng tốt, giao hơi chậm.</comment><date>2026-10-06</date></review>
+  <review id="RV03"><product_id>1</product_id><customer_id>KH03</customer_id><rating>4</rating><comment>Đáng tiền.</comment><date>2026-10-09</date></review>
+  <review id="RV04"><product_id>2</product_id><customer_id>KH01</customer_id><rating>3</rating><comment>Vải hơi mỏng.</comment><date>2026-10-04</date></review>
+  <review id="RV05"><product_id>2</product_id><customer_id>KH02</customer_id><rating>4</rating><comment>Mặc thoải mái.</comment><date>2026-10-08</date></review>
+  <review id="RV06"><product_id>3</product_id><customer_id>KH03</customer_id><rating>5</rating><comment>Áo khoác đẹp, ấm.</comment><date>2026-10-14</date></review>
+  <review id="RV07"><product_id>5</product_id><customer_id>KH02</customer_id><rating>5</rating><comment>Vòng tay sang trọng.</comment><date>2026-10-10</date></review>
+  <review id="RV08"><product_id>5</product_id><customer_id>KH01</customer_id><rating>2</rating><comment>Hơi đắt so với kỳ vọng.</comment><date>2026-10-11</date></review>
+  <review id="RV09"><product_id>7</product_id><customer_id>KH02</customer_id><rating>4</rating><comment>Nhẫn đẹp, giá rẻ.</comment><date>2026-10-07</date></review>
+  <review id="RV10"><product_id>9</product_id><customer_id>KH01</customer_id><rating>5</rating><comment>Ổ cứng chạy nhanh.</comment><date>2026-10-15</date></review>
+</reviews>
